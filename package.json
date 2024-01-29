@@ -1,0 +1,29 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "For node practise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sharmasourabh312/node-pra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sharmasourabh312/node-pra/issues"
+  },
+  "homepage": "https://github.com/Sharmasourabh312/node-pra#readme",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "moongose": "^1.0.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.3",
+    "uuid": "^9.0.1"
+  }
+}
